@@ -1,0 +1,6 @@
+*Relative: It means that the element is in the normal flow of things .
+*Absolute: It means that the element is in accordance with its ancestor or if there is no positioning in the ancestor then it takes the body .
+
+*when i give absolute i am actually overridding the margin:auto and it has to be positioned with respect to the nearest ancestor .
+
+* If i give relative and margin:auto then the element will be positioned relative to its margin .

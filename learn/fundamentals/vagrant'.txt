@@ -1,0 +1,19 @@
+vagrant 
+
+* It is used to create and configure virtual environment .
+
+commands:
+---------
+
+vagrant up: to install or init the vagrant .
+vagrant halt : to halt the system.
+vagrant ssh : to bring the command line .
+
+-------------------------------------------------------------------
+
+* one can create a vagrant file in one directory 
+* the port addresses on the vagrant file of the guest (ubuntu ) and host (windows ) can be changed .
+* static -a 0.0.0.0(IP Address ) -p(host address)
+
+* you can access the served files using 
+https://localhost:(hostport no)\(file name )

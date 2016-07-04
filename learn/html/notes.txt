@@ -1,0 +1,4 @@
+*what is a block?
+a block is a discontinuation in the flow of the html document created by the div element.
+* why does the page still shows half the image even after i turn of the image ?
+it is there in the statis memory so always press cntrl+f5

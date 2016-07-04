@@ -1,0 +1,31 @@
+Image Tag 
+----- ---
+
+
+* <img/>
+*Attributes:
+	-src:mentions the source.
+	-alt:mentions the alternate text.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------
+NOTE:
+-----
+*Hotlinking : It means that one is referring the images directly from another page instead of storing it on the local disk.

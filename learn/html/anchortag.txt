@@ -1,0 +1,8 @@
+Anchor tag
+----------
+
+href: It used to specify the adress of the page to be directed towards.It is not needed in HTML5 and if not used can create placeholder.
+
+target : It is used to specify where to open the links (_blank,_top,_self)
+
+type: It is used to specify the type of media.

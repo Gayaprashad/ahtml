@@ -4,28 +4,26 @@ body{
   font-family:sans-serif;
 }
 
+h2{
+  font-size:39px;
+  line-height: 43px;
+}
+a{
+  color :#276056;
+}
 article img{
   float:left;
   margin-right:30px;
 }
 
-article h1
-{
-  font-size:39px;
-  line-height:43px;
-}
-a{
-  color:#00cc00;
-}
 .jaken a{
-  font-style: italic;
+  font-style:italic;
   font-size:14px;
 }
 .jaken li{
-  display: inline;
+  display:inline;
 }
-.preview
-{
+.preview{
   float:right;
-  width:380px;
+  width:350px;
 }

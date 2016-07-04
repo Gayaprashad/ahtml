@@ -1,0 +1,235 @@
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+core.hidedotfiles=dotGitOnly
+remote.origin.url=https://github.com/Gayaprashad/work1
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ git push origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/Gayaprashad/work1'
+
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ git remote add origin https://github.com/Gayaprashad/work1
+fatal: remote origin already exists.
+
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/Gayaprashad/work1
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ git push origin master
+Everything up-to-date
+
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ git remote -v
+origin  https://github.com/Gayaprashad/work1 (fetch)
+origin  https://github.com/Gayaprashad/work1 (push)
+
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ git add .
+
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ git stuatus
+git: 'stuatus' is not a git command. See 'git --help'.
+
+Did you mean this?
+        status
+
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   .vagrant/machines/default/virtualbox/action_provision
+        new file:   .vagrant/machines/default/virtualbox/action_set_name
+        new file:   .vagrant/machines/default/virtualbox/creator_uid
+        new file:   .vagrant/machines/default/virtualbox/id
+        new file:   .vagrant/machines/default/virtualbox/index_uuid
+        new file:   .vagrant/machines/default/virtualbox/synced_folders
+        new file:   Vagrantfile
+        new file:   first.html
+        new file:   hi.html
+        new file:   index.html
+
+
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ git commit -m " adding"
+[master f92fcf0]  adding
+ Committer: unknown <trainee@PC339966.cts.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
+ 10 files changed, 37 insertions(+)
+ create mode 100644 .vagrant/machines/default/virtualbox/action_provision
+ create mode 100644 .vagrant/machines/default/virtualbox/action_set_name
+ create mode 100644 .vagrant/machines/default/virtualbox/creator_uid
+ create mode 100644 .vagrant/machines/default/virtualbox/id
+ create mode 100644 .vagrant/machines/default/virtualbox/index_uuid
+ create mode 100644 .vagrant/machines/default/virtualbox/synced_folders
+ create mode 100644 Vagrantfile
+ create mode 100644 first.html
+ create mode 100644 hi.html
+ create mode 100644 index.html
+
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ git push origin master
+Counting objects: 16, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (16/16), 1.42 KiB | 0 bytes/s, done.
+Total 16 (delta 0), reused 0 (delta 0)
+To https://github.com/Gayaprashad/work1
+   a4ce376..f92fcf0  master -> master
+
+PC339966+trainee@PC339966 MINGW64 /d/Workspace (master)
+$ cd ..
+
+PC339966+trainee@PC339966 MINGW64 /d
+$ cd workspace2
+
+PC339966+trainee@PC339966 MINGW64 /d/workspace2 (master)
+$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+
+
+PC339966+trainee@PC339966 MINGW64 /d/workspace2 (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+core.hidedotfiles=dotGitOnly
+remote.origin.url=https://github.com/Gayaprashad/vagrantwork.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+PC339966+trainee@PC339966 MINGW64 /d/workspace2 (master)
+$ git add .
+
+PC339966+trainee@PC339966 MINGW64 /d/workspace2 (master)
+$ git commit -m "intialization"
+On branch master
+nothing to commit, working directory clean
+
+PC339966+trainee@PC339966 MINGW64 /d/workspace2 (master)
+$ git push origin master
+Counting objects: 19, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (19/19), 1.53 KiB | 0 bytes/s, done.
+Total 19 (delta 1), reused 0 (delta 0)
+To https://github.com/Gayaprashad/vagrantwork.git
+   619b15a..ab4dc8d  master -> master
+
+PC339966+trainee@PC339966 MINGW64 /d/workspace2 (master)
+$ git remote -v
+origin  https://github.com/Gayaprashad/vagrantwork.git (fetch)
+origin  https://github.com/Gayaprashad/vagrantwork.git (push)

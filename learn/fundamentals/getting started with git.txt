@@ -1,0 +1,45 @@
+Getting started with Git 
+
+https://www.youtube.com/watch?v=0fKg7e37bQE
+
+1.usually one should install the git hub in ubuntu by giving the command sudo apt-get update, sudo apt-get install git but in git bash you can just giv egit commands directly .
+
+2. give command "git clone URL( from the repository you want to control )"
+
+3.git add (. or -m):marked changed the files
+
+4.git status :gives the status .
+
+5.git commit : marked the chnged files .-m for message ( Note : if you dont give comment then give Esc->:->w->q.
+
+6.git push : to push the files.
+
+7.git pull : to pull the files.
+
+when merge conflict arises then give the changes that you want alone and give add and commit 
+
+
+* There are two ways to initialize git 
+	1.create a repository and then use git clone 
+	2. do everything and give git init 
+
+
+2.do everything and give git init 
+---------------------------------
+
+	* traverse to that file and give "git init "
+	* git add .
+	* git commit -m"#####"
+	* git remote add origin(name of the variable ) (url or path file of the repository)
+	* git pull origin master
+	* git add .
+	* git commit -m"#####"
+	* git push origin master  
+
+
+-------------------------------------------------------------------------------------------
+NOTE:
+-----
+
+*git remote -v : Lists out the url to which file updation happens
+* git config --list : lists out all the configuration of the git file 
