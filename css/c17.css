@@ -1,0 +1,39 @@
+body{
+  font-family:sans-serif;
+}
+
+
+#nav {
+  padding-left:0;
+}
+#nav li{
+  display:inline;
+  padding-left:10px;
+}
+
+#nav a{
+  text-decoration:none;
+}
+
+#nav a:hover{
+  color:red;
+  text-decoration:underline;
+}
+
+form li{
+  list-style: none;
+  margin-bottom:40px;
+}
+
+label{
+  display:block;
+}
+
+form ul{
+  padding-left:0;
+}
+
+textarea{
+  width:400px;
+  height:200px;
+}
