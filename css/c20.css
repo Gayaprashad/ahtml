@@ -1,0 +1,20 @@
+body{
+  margin:0;
+}
+.karma{
+  width:700px;
+  height:700px;
+  margin:auto;
+  background-color: yellow;
+  position:relative;
+  top:20px;
+}
+.box{
+  width:400px;
+  height:400px;
+  margin:auto;
+  background-color: red;
+  position:relative;
+  top:20px;
+  left:25px;
+}

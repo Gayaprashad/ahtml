@@ -1,0 +1,38 @@
+#gaya h1
+{
+  text-indent:-9999px;
+  width:144px;
+  height:121px;
+}
+
+
+.wrap{
+  width:80%;
+  margin:auto;
+  background-color: brown;
+}
+
+.content,aside{
+  height:800px;
+}
+
+.content{
+  background-color: red;
+  float:left;
+  width:70%;
+}
+
+aside {
+  background:green;
+  float:left;
+  width:30%;
+}
+
+aside ul{
+  list-style:none;
+  padding-left:0px;
+}
+
+footer{
+  clear:both;
+}

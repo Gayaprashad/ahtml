@@ -1,0 +1,36 @@
+#coffee{
+  background: url("../img/coffee.jpg") no-repeat;
+  width:225px;
+  height:700px;
+  text-indent:-99999px;
+  float:left;
+  margin-right:20px;
+}
+
+body
+{
+  background-color: #D3D3D3;
+}
+
+#whole{
+  width:700px;
+  margin:auto;
+}
+
+.jaken{
+  float:left;
+  width:450px;
+  padding-top: 0px;
+  background-color: red;
+}
+
+#menu li
+{
+  display:inline;
+  padding-left: 5px;
+  padding-top: 0;
+}
+#link
+{
+  float:right;
+}
