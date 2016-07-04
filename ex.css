@@ -1,0 +1,17 @@
+body{
+  background-color:#C0C0C0
+}
+
+#parent{
+  width:700px;
+  margin:auto;
+}
+
+#list{
+  margin-left:10px;
+}
+
+.quotes
+{
+  text-align:center; border:2px; border-style:solid; border-color:white
+}

@@ -5,3 +5,13 @@ h1
 {
 	font-family:sans-serif;
 }
+
+img{
+	height:200px;
+	width:200px;
+}
+div{
+	background-color: blue;
+	width:700px;
+	margin:auto;
+}
