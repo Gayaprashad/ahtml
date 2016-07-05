@@ -1,0 +1,3 @@
+* reset body margin as 0px( by default body margin is 8px) if one doesnt do it in this example the contents of the fifth and sixth paragraph gets over lapped and if we clear then because overflow is hidden we don't the fifth paragraph displayed.
+
+* In 960 css file i had overridden visibility property and height property in clear class

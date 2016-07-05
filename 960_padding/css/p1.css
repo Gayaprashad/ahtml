@@ -1,0 +1,44 @@
+body{
+  margin:0;
+
+}
+.container_12{
+  background:green;
+}
+nav li{
+  display:inline;
+  margin-left:0;
+  margin-right:5px;
+}
+.main{
+  margin:30px 0;
+}
+
+div{
+  background:red;
+}
+aside{
+  background: yellow;
+}
+
+h1{
+  background:blue;
+}
+nav{
+  background:white;
+}
+
+section{
+}
+
+/*this is the second paragraph*/
+#imp{
+  padding-left:10px;
+  padding-right:10px;
+  box-sizing: border-box;
+}
+
+#imp2
+{
+  
+}

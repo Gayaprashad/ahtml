@@ -4,7 +4,7 @@ body{
   font-family:sans-serif;
 }
 
-h2{
+h1{
   font-size:39px;
   line-height: 43px;
 }
@@ -15,10 +15,25 @@ article img{
   float:left;
   margin-right:30px;
 }
-
-.jaken a{
+article h1{
+  margin:0px;
+}
+.jaken ul {
+  padding-left: 0px;
+  margin-top:0px;
+  margin-bottom:8px;
+}
+.jaken a,.post_info a{
   font-style:italic;
   font-size:14px;
+}
+.jaken li:after{
+  content:'\\';
+  padding: 0 5px;
+  color:#999;
+}
+.jaken li:last-child:after{
+  content:none;
 }
 .jaken li{
   display:inline;
@@ -26,4 +41,25 @@ article img{
 .preview{
   float:right;
   width:350px;
+}
+.post_info{
+  background:#f3f3f3;
+  color:#999;
+  padding:2px;
+  float:left;
+  font-size:14px
+}
+.post_info a{
+  color:#999;/* if we give all <a> styling here and the post_info <a> above then
+  all <a> styling will prevail since it has more weight*/
+  text-decoration:none;
+}
+
+.post_info a:hover{
+  color:#999;
+}
+
+#body{
+  clear :both;
+  color:#575757;
 }

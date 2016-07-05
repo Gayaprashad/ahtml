@@ -1,0 +1,2 @@
+If we give border-box in box size of the content(no of characters per line) gets adjusted (decreased if we add padding) while that of the border remains static .If we give content-box the size of the content remains the same while the size of the border gets adjusted
+
